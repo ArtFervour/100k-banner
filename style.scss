@@ -1,0 +1,115 @@
+body {
+  background: #ec7154;
+  margin: 0;
+}
+
+.frame-banner {
+  background-image: url(desktop2.jpg);
+  height: 563px;
+  width: 1000px;
+  left: 50%;
+  overflow: hidden;
+  position: absolute;
+  transform: translateX(-50%);
+}
+
+.frame {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /*   background-color: black; */
+}
+
+.frame:hover {
+  background-color: rgba(256, 256, 256, 0.3);
+}
+
+.frame-1 {
+  width: 106px;
+  height: 133px;
+  position: absolute;
+  right: 563px;
+  top: 261px;
+}
+
+.frame-2 {
+  width: 89px;
+  height: 108px;
+  position: absolute;
+  right: 320px;
+  top: 266px;
+}
+
+.frame-3 {
+  width: 86px;
+  height: 98px;
+  position: absolute;
+  right: 688px;
+  top: 279px;
+}
+
+.frame-4 {
+  width: 108px;
+  height: 86px;
+  position: absolute;
+  right: 430px;
+  top: 279px;
+}
+
+.frame-5 {
+  width: 111px;
+  height: 91px;
+  position: absolute;
+  right: 190px;
+  top: 273px;
+}
+
+/* .frame-modern:hover {
+  background-color: black;
+  opacity: 0.3;
+} */
+
+.tippy-tooltip.au-theme {
+  color: white;
+  background-color: black;
+  box-shadow: 0 4px 80px -8px rgba(0, 20, 60, 0.25);
+  border-radius: 0;
+  padding: 20px 40px;
+  max-width: 200px;
+}
+
+.tippy-tooltip.au-theme h2 {
+  font-family: minion-pro, Georgia, Times, "Times New Roman", serif;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.tippy-tooltip.au-theme p {
+  font-family: minion-pro, Georgia, Times, "Times New Roman", serif;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.tippy-tooltip.au-theme [x-arrow] {
+  border-bottom: 7px solid black;
+}
+
+@media only screen and (max-width: 560px) {
+  body {
+    background: #fff;
+  }
+  .frame-banner {
+    background-image: url(mobile2.jpg);
+    width: 320px;
+    height: 569px;
+    background-repeat: no-repeat;
+  }
+  .frame-5 {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 243px;
+    top: 270px;
+  }
+}
