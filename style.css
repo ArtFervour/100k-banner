@@ -1,5 +1,5 @@
 body {
-  background: #ec7154;
+  background: #ee7154;
   margin: 0;
 }
 
@@ -25,11 +25,10 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  /*   background-color: black; */
 }
 
 .frame:hover {
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 .frame-1 {
@@ -112,11 +111,32 @@ body {
     height: 569px;
     background-repeat: no-repeat;
   }
-  .frame-5 {
+  .frame-2 {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 105px;
+    top: 376px;
+  }
+  .frame-3 {
     width: 40px;
     height: 40px;
     position: absolute;
     right: 243px;
+    top: 269px;
+  }
+  .frame-4 {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 202px;
+    top: 382px;
+  }
+  .frame-5 {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 45px;
     top: 270px;
   }
 }
