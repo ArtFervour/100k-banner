@@ -30,40 +30,40 @@ body {
   width: 106px;
   height: 133px;
   position: absolute;
-  right: 563px;
-  top: 261px;
+  right: 587px;
+  top: 240px;
 }
 
 .frame-2 {
   width: 89px;
   height: 108px;
   position: absolute;
-  right: 320px;
-  top: 266px;
+  right: 343px;
+  top: 244px;
 }
 
 .frame-3 {
   width: 86px;
   height: 98px;
   position: absolute;
-  right: 688px;
-  top: 279px;
+  right: 716px;
+  top: 259px;
 }
 
 .frame-4 {
   width: 108px;
   height: 86px;
   position: absolute;
-  right: 430px;
-  top: 279px;
+  right: 454px;
+  top: 256px;
 }
 
 .frame-5 {
   width: 111px;
   height: 91px;
   position: absolute;
-  right: 190px;
-  top: 273px;
+  right: 213px;
+  top: 252px;
 }
 
 /* .frame-modern:hover {
@@ -97,48 +97,48 @@ body {
 }
 
 @media only screen and (max-width: 560px) {
-  body {
-    background: #fff;
-  }
   .frame-banner {
     background-image: url(mobile2.jpg);
     width: 320px;
     height: 569px;
     background-repeat: no-repeat;
   }
+  .frame:hover {
+    background-color: transparent;
+  }
   .frame-1 {
     width: 40px;
     height: 40px;
     position: absolute;
-    right: 149px;
-    top: 273px;
+    right: 147px;
+    top: 259px;
   }
   .frame-2 {
     width: 40px;
     height: 40px;
     position: absolute;
-    right: 105px;
-    top: 376px;
+    right: 85px;
+    top: 373px;
   }
   .frame-3 {
     width: 40px;
     height: 40px;
     position: absolute;
-    right: 243px;
-    top: 269px;
+    right: 247px;
+    top: 258px;
   }
   .frame-4 {
     width: 40px;
     height: 40px;
     position: absolute;
-    right: 202px;
-    top: 382px;
+    right: 184px;
+    top: 373px;
   }
   .frame-5 {
     width: 40px;
     height: 40px;
     position: absolute;
-    right: 45px;
-    top: 270px;
+    right: 38px;
+    top: 257px;
   }
 }
