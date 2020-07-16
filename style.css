@@ -1,6 +1,7 @@
 body {
   background: #ee7154;
   margin: 0;
+  overflow: hidden;
 }
 
 .frame-banner {
