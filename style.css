@@ -1,18 +1,20 @@
 body {
-  background: #ee7154;
   margin: 0;
   overflow: hidden;
+  background: #ee7154;
 }
 
 .frame-banner {
-  background-image: url(desktop2.jpg);
   height: 563px;
   width: 1000px;
   left: 50%;
   overflow: hidden;
   position: absolute;
+  background-size: contain;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
+  background-repeat: no-repeat;
+  background-image: url(desktop2.jpg);
 }
 
 .frame {
@@ -104,11 +106,9 @@ body {
 
 @media only screen and (max-width: 560px) {
   .frame-banner {
-    background-image: url(mobile2.jpg);
+    background-image: url(mobile.jpg);
     width: 320px;
     height: 569px;
-    background-repeat: no-repeat;
-    background-size: contain;
   }
   .frame:hover {
     background-color: transparent;
